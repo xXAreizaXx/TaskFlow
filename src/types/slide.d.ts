@@ -1,8 +1,8 @@
 interface ISlideAction {
-    module: TModule;
+    module: TModule | null;
     open: boolean;
     params: IParams;
-    setModule: React.Dispatch<React.SetStateAction<TModule>>;
+    setModule: React.Dispatch<React.SetStateAction<TModule | null>>;
     setOpen: React.Dispatch<React.SetStateAction<boolean>>;
     setParams: React.Dispatch<React.SetStateAction<IParams>>;
     slideComponent: React.ReactNode | null;
@@ -16,4 +16,4 @@ type IParams = {
     title?: string;
 };
 
-type TModule = ""
+type TModule = "task-create" | "task-edit";

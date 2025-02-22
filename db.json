@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com",
-      "password": "johndoe"
-    },
-    {
       "id": "8d9a",
       "email": "jorgeareiza2001@gmail.com",
       "name": "Jorge Areiza",
@@ -15,12 +9,25 @@
   ],
   "tasks": [
     {
-      "id": 1,
-      "title": "Tarea 1",
-      "description": "Descripción de la tarea",
-      "dueDate": "2025-02-21T00:00:00.000Z",
-      "status": "pending",
-      "userId": 1
+      "id": "b9e2",
+      "title": "Test T",
+      "description": "Test D",
+      "dueDate": "2025-02-23",
+      "status": "PENDING"
+    },
+    {
+      "title": "Test V2",
+      "description": "Test V2",
+      "dueDate": "2025-02-26",
+      "status": "PENDING",
+      "id": "c6bd"
+    },
+    {
+      "id": "1659",
+      "title": "sasas",
+      "description": "sasas",
+      "dueDate": "2025-02-22",
+      "status": "PENDING"
     }
   ]
 }

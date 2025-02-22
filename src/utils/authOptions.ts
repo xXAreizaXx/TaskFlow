@@ -35,8 +35,6 @@ export const authOptions: NextAuthOptions = {
 
                 const user = res?.data?.find((user: IUser) => user.email === email && user.password === password);
 
-                console.log(user);
-
                 if (!user) throw new Error("Invalid credentials");
 
                 return user;

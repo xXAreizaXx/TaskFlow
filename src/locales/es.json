@@ -1,103 +1,30 @@
 {
     "Constants": {
-        "Quote": "Cotizar",
         "Accept": "Aceptar",
-        "Active": "Activo",
         "Add": "Agregar",
         "Back": "Atrás",
         "Cancel": "Cancelar",
-        "Completed": "Completado",
-        "Confirm": "Confirmar",
-        "Connect": "Conectar",
-        "Connected": "Conectado",
         "Create": "Crear",
         "Delete": "Eliminar",
-        "Disconnect": "Desconectar",
-        "Disconnected": "Desconectado",
         "Edit": "Editar",
-        "Export": "Exportar",
-        "FileTooBig": "El archivo es demasiado grande.",
-        "Import": "Importar",
-        "Inactive": "Inactivo",
         "Loading": "Cargando...",
-        "Mode": "Modo",
-        "MyCatalogs": "Mis Catálogos",
-        "Next": "Siguiente",
         "NoDataFound": "No se encontraron datos.",
-        "Of": "de",
-        "Preview": "Vista previa",
-        "Previous": "Anterior",
-        "Progress": "Progreso",
-        "Register": "Registro",
-        "RowsPerPage": "Filas por página",
         "Save": "Guardar",
-        "Send": "Enviar",
-        "Shared": "Compartido",
-        "Status": "Estado",
-        "Total": "Total",
-        "TypeNotAllowed": "Tipo de archivo no permitido.",
-        "Verify": "Verificar",
-        "View": "Ver",
-        "Welcome": "Bienvenid@"
-    },
-    "Headers": {
-        "AccountNumber": "Número de cuenta",
-        "AccountType": "Tipo de cuenta",
-        "Actions": "Acciones",
-        "Address": "Dirección",
-        "AddressLine": "Línea de dirección",
-        "Amount": "Monto",
-        "Bank": "Banco",
-        "Business": "Empresa",
-        "Carrier": "Transportadora",
-        "City": "Ciudad",
-        "Contact": "Contacto",
-        "Currency": "Moneda",
-        "Date": "Fecha",
-        "Description": "Descripción",
-        "Destination": "Destino",
-        "Disconnect": "Desconectar",
-        "Discount": "Descuento",
-        "Domain": "Dominio",
-        "Email": "Correo Electrónico",
-        "Maximum": "Máximo",
-        "Minimum": "Mínimo",
-        "Mode": "Modo",
-        "Name": "Nombre",
-        "Order": "Orden",
-        "OrderNumber": "Número de orden",
-        "Origin": "Origen",
-        "Phone": "Celular",
-        "PreviousBalance": "Saldo Anterior",
-        "Price": "Precio",
-        "Product": "Producto",
-        "Provider": "Proveedor",
-        "Quantity": "Cantidad",
-        "SalesChannel": "Canal de ventas",
-        "SKU": "SKU",
-        "Status": "Estado",
-        "Total": "Total",
-        "Type": "Tipo",
-        "Variant": "Variante"
+        "Send": "Enviar"
     },
     "Language": {
-        "br": "Portugués",
         "en": "Inglés",
-        "es": "Español",
-        "fr": "Francés"
+        "es": "Español"
     },
     "Login": {
-        "Description": "Plataforma B2B SaaS para gestionar tu negocio",
         "Email": "Correo Electrónico",
         "EmailPlaceholder": "Ingresa tu correo electrónico",
         "Enter": "Ingresar",
-        "ForgotPassword": "¿Olvidaste tu contraseña?",
         "Password": "Contraseña",
         "PasswordPlaceholder": "Ingresa tu contraseña",
         "SignIn": "Iniciar Sesión",
         "SignOut": "Cerrar Sesión",
-        "SignUp": "Regístrate",
-        "Welcome": "¡Bienvenido!"
+        "SignUp": "Regístrate"
     },
     "NotFound": {
         "Description": "Lo sentimos, la página que buscas no existe.",
@@ -111,44 +38,18 @@
         "FullNamePlaceholder": "Ingresa tu nombre completo",
         "Password": "Contraseña",
         "PasswordPlaceholder": "Ingresa tu contraseña",
-        "PhoneNumber": "Número de teléfono",
-        "PhoneNumberPlaceholder": "Ingresa tu número de teléfono",
-        "SignUp": "Registrarse",
-        "Welcome": "¡Bienvenido!"
+        "SignUp": "Registrarse"
     },
     "Routes": {
-        "Configurations": "Configuraciones",
-        "Connections": "Conexiones",
-        "Home": "Inicio",
-        "Logout": "Cerrar Sesión",
-        "Shipments": "Envíos",
-        "Users": "Usuarios",
-        "Wallet": "Billetera"
+        "Tasks": "Tareas"
     },
     "Schema": {
-        "AccountHolder": "Titular de la cuenta requerido",
-        "AccountName": "Nombre de la cuenta requerido",
-        "AccountNumber": "Número de cuenta requerido",
-        "AccountNumberMatch": "Los números de cuenta no coinciden",
-        "AccountType": "Tipo de cuenta requerido",
-        "Address": "Dirección requerida",
-        "AddressLine": "Línea de dirección requerida",
-        "Bank": "Banco requerido",
-        "Business": "Nombre de la empresa requerido",
-        "City": "Ciudad requerida",
-        "ConfirmPassword": "Confirmar contraseña requerida",
-        "Country": "País requerido",
-        "Document": "Documento requerido",
-        "DocumentType": "Tipo de documento requerido",
+        "Description": "Descripción requerida",
+        "DueDate": "Fecha de vencimiento requerida",
         "Email": "Correo electrónico requerido",
-        "FirstName": "Nombre requerido",
         "FullName": "Nombre completo requerido",
         "FullNameMax": "Nombre completo debe tener menos de 14 caracteres",
         "FullNameMin": "Nombre completo debe tener más de 3 caracteres",
-        "LastName": "Apellido requerido",
-        "Name": "Nombre requerido",
-        "Observations": "Observaciones requeridas",
-        "OrderNumber": "Número de orden requerido",
         "Password": "Contraseña requerida",
         "PasswordLowercase": "La contraseña debe tener al menos una letra minúscula",
         "PasswordMatch": "Las contraseñas no coinciden",
@@ -157,57 +58,30 @@
         "PasswordNumber": "La contraseña debe tener al menos un número",
         "PasswordSpecial": "La contraseña debe tener al menos un carácter especial",
         "PasswordUppercase": "La contraseña debe tener al menos una letra mayúscula",
-        "PhoneNumber": "Número de teléfono requerido",
-        "SalesChannel": "Canal de ventas requerido",
-        "Shopify": "URL de Shopify requerida",
-        "State": "Estado requerido",
-        "Store": "Tienda requerida",
-        "VerifyAccountNumber": "Verificar número de cuenta requerido",
-        "Woocommerce": "URL de WooCommerce requerida",
-        "ZipCode": "Código postal requerido"
+        "Status": "Estado requerido",
+        "Title": "Título requerido"
+    },
+    "Tasks": {
+        "Create": {
+            "Description": "Aquí puedes crear una nueva tarea, con todos los detalles necesarios (Título, Descripción, Fecha de vencimiento).",
+            "Title": "Crear Tarea"
+        },
+        "Edit": {
+            "Description": "Aquí puedes editar la tarea seleccionada, con todos los detalles necesarios (Título, Descripción, Fecha de vencimiento, Estado).",
+            "Title": "Editar Tarea"
+        },
+        "Date": "Fecha",
+        "Description": "Descripción",
+        "DueDate": "Fecha de vencimiento",
+        "Info": "Información",
+        "Status": "Estado",
+        "Title": "Título"
     },
     "Toast": {
-        "BackForm": "Si sales de la página, perderás los cambios.",
-        "Banks": {
-            "Errors": {
-                "Create": "Error al crear la cuenta bancaria.",
-                "Delete": "Error al eliminar la cuenta bancaria.",
-                "Update": "Error al actualizar la cuenta bancaria."
-            },
-            "Success": {
-                "Create": "Cuenta bancaria creada con éxito.",
-                "Delete": "Cuenta bancaria eliminada con éxito.",
-                "Update": "Cuenta bancaria actualizada con éxito."
-            }
-        },
-        "Connections": {
-            "Errors": {
-                "Connect": "Error al conectar la integración.",
-                "Disconnect": "Error al desconectar la integración."
-            },
-            "Success": {
-                "Connect": "Integración conectada con éxito.",
-                "Disconnect": "Integración desconectada con éxito."
-            }
-        },
         "Delete": "Elemento eliminado con éxito.",
-        "DeletePicture": "Imagen eliminada con éxito. Recuerda guardar los cambios.",
         "Error": "Error",
         "ErrorForm": "Errores en el formulario, por favor revise los campos.",
         "ErrorLogin": "Error al iniciar sesión, por favor verifica tus credenciales.",
-        "ErrorSendEmail": "Error al enviar el correo electrónico.",
-        "ForgotPassword": {
-            "Errors": {
-                "Code": "Error al verificar el código.",
-                "Email": "Error al enviar el correo electrónico.",
-                "Password": "Error al restablecer la contraseña."
-            },
-            "Success": {
-                "Code": "Código verificado con éxito.",
-                "Email": "Correo electrónico enviado con éxito.",
-                "Password": "Contraseña restablecida con éxito."
-            }
-        },
         "Register": {
             "Errors": {
                 "Create": "Error al crear la cuenta."
@@ -216,70 +90,17 @@
                 "Create": "Cuenta creada con éxito."
             }
         },
-        "ShippingCompanies": {
+        "Tasks": {
             "Errors": {
-                "Sorting": "Error al ordenar las empresas de envío.",
-                "Update": "Error al actualizar el estado de la empresa de envío."
+                "Create": "Error al crear la tarea."
             },
             "Success": {
-                "Sorting": "Empresas de envío ordenadas con éxito.",
-                "Update": "Estado de la empresa de envío actualizado con éxito."
+                "Create": "Tarea creada con éxito."
             }
         },
-        "Shipments": {
-            "Errors": {
-                "Cancel": "Error al cancelar el envío.",
-                "Create": "Error al crear el envío.",
-                "GenerateGuide": "Error al generar la guía.",
-                "Quotation": "Error al cotizar el envío.",
-                "Update": "Error al actualizar el envío."
-            },
-            "Success": {
-                "Cancel": "Envío cancelado correctamente.",
-                "Create": "Envío creado correctamente.",
-                "GenerateGuide": "Guía generada correctamente.",
-                "Quotation": "Envío cotizado correctamente.",
-                "Update": "Envío actualizado correctamente."
-            }
-        },
-        "Success": "Éxito",
+        "Success": "Exitoso",
         "SuccessForm": "Formulario enviado con éxito.",
         "SuccessLogin": "Inicio de sesión exitoso.",
-        "SuccessSendEmail": "Correo electrónico enviado con éxito.",
-        "Users": {
-            "Errors": {
-                "Create": "Error al crear el usuario.",
-                "Delete": "Error al eliminar el usuario.",
-                "Update": "Error al actualizar el usuario."
-            },
-            "Success": {
-                "Create": "Usuario creado correctamente.",
-                "Delete": "Usuario eliminado correctamente.",
-                "Update": "Usuario actualizado correctamente."
-            }
-        },
-        "Wallet": {
-            "Errors": {
-                "Recharge": "Error al recargar la billetera.",
-                "Withdraw": "Error al retirar el saldo de la billetera."
-            },
-            "Success": {
-                "Recharge": "Billetera recargada correctamente.",
-                "Withdraw": "Saldo retirado correctamente."
-            }
-        },
-        "Warehouses": {
-            "Errors": {
-                "Create": "Error al crear el almacén.",
-                "Delete": "Error al eliminar el almacén.",
-                "Update": "Error al actualizar el almacén."
-            },
-            "Success": {
-                "Create": "Almacén creado correctamente.",
-                "Delete": "Almacén eliminado correctamente.",
-                "Update": "Almacén actualizado correctamente."
-            }
-        },
         "Warning": "Advertencia",
         "WarningForm": "Por favor, revisa los campos del formulario."
     }

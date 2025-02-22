@@ -59,3 +59,36 @@ export const signUpSchema = z.object({
 });
 
 export type TSignUpSchema = z.infer<typeof signUpSchema>;
+
+// Task Schema
+export const taskSchema = z.object({
+    title: z
+        .string({
+            message: "Schema.Title",
+        })
+        .min(3, {
+            message: "Schema.TitleMin",
+        })
+        .max(14, {
+            message: "Schema.TitleMax",
+        }),
+    description: z
+        .string({
+            message: "Schema.Description",
+        })
+        .min(3, {
+            message: "Schema.DescriptionMin",
+        })
+        .max(100, {
+            message: "Schema.DescriptionMax",
+        }),
+    dueDate: z
+        .string({
+            message: "Schema.DueDate",
+        }),
+    status: z.enum(["PENDING", "COMPLETED"], {
+        message: "Schema.Status",
+    })
+});
+
+export type TTaskSchema = z.infer<typeof taskSchema>;

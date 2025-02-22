@@ -1,103 +1,30 @@
 {
     "Constants": {
         "Accept": "Accept",
-        "Active": "Active",
         "Add": "Add",
         "Back": "Back",
         "Cancel": "Cancel",
-        "Completed": "Completed",
-        "Confirm": "Confirm",
-        "Connect": "Connect",
-        "Connected": "Connected",
         "Create": "Create",
         "Delete": "Delete",
-        "Disconnect": "Disconnect",
-        "Disconnected": "Disconnected",
         "Edit": "Edit",
-        "Export": "Export",
-        "FileTooBig": "The file is too big.",
-        "Import": "Import",
-        "Inactive": "Inactive",
         "Loading": "Loading...",
-        "Mode": "Mode",
-        "MyCatalogs": "My Catalogs",
-        "Next": "Next",
         "NoDataFound": "No data found.",
-        "Of": "of",
-        "Preview": "Preview",
-        "Previous": "Previous",
-        "Progress": "Progress",
-        "Quote": "Quote",
-        "Register": "Register",
-        "RowsPerPage": "Rows per page",
         "Save": "Save",
-        "Send": "Send",
-        "Shared": "Shared",
-        "Status": "Status",
-        "Total": "Total",
-        "TypeNotAllowed": "File type not allowed.",
-        "Verify": "Verify",
-        "View": "View",
-        "Welcome": "Welcome"
-    },
-    "Headers": {
-        "AccountNumber": "Account number",
-        "AccountType": "Account type",
-        "Actions": "Actions",
-        "Address": "Address",
-        "AddressLine": "Address line",
-        "Amount": "Amount",
-        "Bank": "Bank",
-        "Business": "Business",
-        "Carrier": "Carrier",
-        "City": "City",
-        "Contact": "Contact",
-        "Currency": "Currency",
-        "Date": "Date",
-        "Description": "Description",
-        "Destination": "Destination",
-        "Disconnect": "Disconnect",
-        "Discount": "Discount",
-        "Domain": "Domain",
-        "Email": "Email",
-        "Maximum": "Maximum",
-        "Minimum": "Minimum",
-        "Mode": "Mode",
-        "Name": "Name",
-        "Order": "Order",
-        "OrderNumber": "Order number",
-        "Origin": "Origin",
-        "Phone": "Phone",
-        "PreviousBalance": "Previous Balance",
-        "Price": "Price",
-        "Product": "Product",
-        "Provider": "Provider",
-        "Quantity": "Quantity",
-        "SalesChannel": "Sales Channel",
-        "SKU": "SKU",
-        "Status": "Status",
-        "Total": "Total",
-        "Type": "Type",
-        "Variant": "Variant"
+        "Send": "Send"
     },
     "Language": {
-        "br": "Portuguese",
         "en": "English",
-        "es": "Spanish",
-        "fr": "French"
+        "es": "Spanish"
     },
     "Login": {
-        "Description": "B2B SaaS platform to manage your business",
         "Email": "Email",
         "EmailPlaceholder": "Enter your email",
         "Enter": "Enter",
-        "ForgotPassword": "Forgot your password?",
         "Password": "Password",
         "PasswordPlaceholder": "Enter your password",
         "SignIn": "Sign In",
         "SignOut": "Sign Out",
-        "SignUp": "Sign Up",
-        "Welcome": "Welcome!"
+        "SignUp": "Sign Up"
     },
     "NotFound": {
         "Description": "Sorry, the page you are looking for does not exist.",
@@ -105,187 +32,75 @@
         "Title": "Page not found"
     },
     "Register": {
-        "Back": "Back",
-        "Store": "Store name",
-        "StorePlaceholder": "Enter your store name",
-        "Country": "Country code",
-        "CountryPlaceholder": "Select your country",
-        "Description": "B2B SaaS platform to manage your business",
         "Email": "Email",
         "EmailPlaceholder": "Enter your email",
-        "FullName": "Full name",
+        "FullName": "Full Name",
         "FullNamePlaceholder": "Enter your full name",
         "Password": "Password",
         "PasswordPlaceholder": "Enter your password",
-        "PhoneNumber": "Phone number",
-        "PhoneNumberPlaceholder": "Enter your phone number",
-        "SignUp": "Sign Up",
-        "Welcome": "Welcome!"
+        "SignUp": "Sign Up"
     },
     "Routes": {
-        "Configurations": "Configurations",
-        "Connections": "Connections",
-        "Home": "Home",
-        "Logout": "Logout",
-        "Shipments": "Shipments",
-        "Users": "Users",
-        "Wallet": "Wallet"
+        "Tasks": "Tasks"
     },
     "Schema": {
-        "AccountHolder": "Account holder required",
-        "AccountName": "Account name required",
-        "AccountNumber": "Account number required",
-        "AccountNumberMatch": "Account numbers do not match",
-        "AccountType": "Account type required",
-        "Address": "Address is required",
-        "AddressLine": "Address line is required",
-        "Bank": "Bank required",
-        "Business": "Business name is required",
-        "City": "City is required",
-        "ConfirmPassword": "Confirm password is required",
-        "Country": "Country is required",
-        "Document": "Document required",
-        "DocumentType": "Document type required",
+        "Description": "Description is required",
+        "DueDate": "Due date is required",
         "Email": "Email is required",
-        "FirstName": "First name is required",
         "FullName": "Full name is required",
         "FullNameMax": "Full name must be less than 14 characters",
         "FullNameMin": "Full name must be more than 3 characters",
-        "LastName": "Last name is required",
-        "Name": "Name is required",
-        "Observations": "Observations required",
-        "OrderNumber": "Order number required",
         "Password": "Password is required",
-        "PasswordLowercase": "Password must have at least one lowercase letter",
+        "PasswordLowercase": "Password must contain at least one lowercase letter",
         "PasswordMatch": "Passwords do not match",
         "PasswordMax": "Password must be less than 10 characters",
         "PasswordMin": "Password must be more than 8 characters",
-        "PasswordNumber": "Password must have at least one number",
-        "PasswordSpecial": "Password must have at least one special character",
-        "PasswordUppercase": "Password must have at least one uppercase letter",
-        "PhoneNumber": "Phone number is required",
-        "SalesChannel": "Sales channel required",
-        "Shopify": "Shopify url required",
-        "State": "State is required",
-        "Store": "Store is required",
-        "VerifyAccountNumber": "Verify account number required",
-        "Woocommerce": "Woocommerce url required",
-        "ZipCode": "Zip code is required"
+        "PasswordNumber": "Password must contain at least one number",
+        "PasswordSpecial": "Password must contain at least one special character",
+        "PasswordUppercase": "Password must contain at least one uppercase letter",
+        "Status": "Status is required",
+        "Title": "Title is required"
+    },
+    "Tasks": {
+        "Create": {
+            "Description": "Here you can create a new task, with all the necessary details (Title, Description, Due Date).",
+            "Title": "Create Task"
+        },
+        "Edit": {
+            "Description": "Here you can edit the selected task, with all the necessary details (Title, Description, Due Date, Status).",
+            "Title": "Edit Task"
+        },
+        "Date": "Date",
+        "Description": "Description",
+        "DueDate": "Due Date",
+        "Info": "Information",
+        "Status": "Status",
+        "Title": "Title"
     },
     "Toast": {
-        "BackForm": "If you leave the page, you will lose the changes.",
-        "Banks": {
-            "Errors": {
-                "Create": "Error creating bank account.",
-                "Delete": "Error deleting bank account.",
-                "Update": "Error updating bank account."
-            },
-            "Success": {
-                "Create": "Bank account successfully created.",
-                "Delete": "Bank account successfully deleted.",
-                "Update": "Bank account successfully updated."
-            }
-        },
-        "Connections": {
-            "Errors": {
-                "Connect": "Error connecting integration.",
-                "Disconnect": "Error disconnecting integration."
-            },
-            "Success": {
-                "Connect": "Integration connected successfully.",
-                "Disconnect": "Integration disconnected successfully."
-            }
-        },
-        "Delete Picture": "Image successfully deleted. Remember to save the changes.",
         "Delete": "Item successfully deleted.",
         "Error": "Error",
         "ErrorForm": "Form errors, please check the fields.",
         "ErrorLogin": "Login error, please check your credentials.",
-        "ErrorSendEmail": "Error sending email.",
-        "ForgotPassword": {
-            "Errors": {
-                "Code": "Error verifying code.",
-                "Email": "Error sending email.",
-                "Password": "Error resetting password."
-            },
-            "Success": {
-                "Code": "Code successfully verified.",
-                "Email": "Email successfully sent.",
-                "Password": "Password successfully reset."
-            }
-        },
         "Register": {
             "Errors": {
-                "Create": "Error creating user."
+                "Create": "Error creating account."
             },
             "Success": {
-                "Create": "User successfully created."
+                "Create": "Account successfully created."
             }
         },
-        "ShippingCompanies": {
+        "Tasks": {
             "Errors": {
-                "Sorting": "Error sorting shipping companies.",
-                "Update": "Error updating shipping company status."
+                "Create": "Error creating task."
             },
             "Success": {
-                "Sorting": "Shipping companies successfully sorted.",
-                "Update": "Shipping company status successfully updated."
-            }
-        },
-        "Shipments": {
-            "Errors": {
-                "Cancel": "Error canceling shipment.",
-                "Create": "Error creating shipment.",
-                "GenerateGuide": "Error generating guide.",
-                "Quotation": "Error quoting shipping.",
-                "Update": "Error updating shipment."
-            },
-            "Success": {
-                "Cancel": "Shipment successfully canceled.",
-                "Create": "Shipment successfully created.",
-                "GenerateGuide": "Guide successfully generated.",
-                "Quotation": "Shipping successfully quoted.",
-                "Update": "Shipment successfully updated."
+                "Create": "Task successfully created."
             }
         },
         "Success": "Success",
-        "SuccessForm": "Form successfully submitted.",
+        "SuccessForm": "Form submitted successfully.",
         "SuccessLogin": "Login successful.",
-        "SuccessSendEmail": "Email successfully sent.",
-        "Users": {
-            "Errors": {
-                "Create": "Error creating user.",
-                "Delete": "Error deleting user.",
-                "Update": "Error updating user."
-            },
-            "Success": {
-                "Create": "User successfully created.",
-                "Delete": "User successfully deleted.",
-                "Update": "User successfully updated."
-            }
-        },
-        "Wallet": {
-            "Errors": {
-                "Recharge": "Error recharging wallet.",
-                "Withdraw": "Error withdrawing wallet balance."
-            },
-            "Success": {
-                "Recharge": "Wallet recharged successfully.",
-                "Withdraw": "Balance withdrawn successfully."
-            }
-        },
-        "Warehouses": {
-            "Errors": {
-                "Create": "Error creating warehouse.",
-                "Delete": "Error deleting warehouse.",
-                "Update": "Error updating warehouse."
-            },
-            "Success": {
-                "Create": "Warehouse successfully created.",
-                "Delete": "Warehouse successfully deleted.",
-                "Update": "Warehouse successfully updated."
-            }
-        },
         "Warning": "Warning",
         "WarningForm": "Please check the form fields."
     }

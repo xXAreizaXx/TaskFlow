@@ -17,6 +17,8 @@ interface IInput {
     errors: FieldErrors;
     isDisabled?: boolean;
     label: string;
+    maxDate?: string;
+    minDate?: string;
     name: string;
     register: UseFormRegister<any>;
     type?: string;
@@ -80,6 +82,37 @@ export function InputPassword(props: IInput) {
                 variant="outlined"
             />
             }
+        />
+    );
+}
+
+export function InputDate(props: IInput) {
+    // Props
+    const { className, control, errors, isDisabled, label, maxDate, minDate, name, register, type = "text" } = props;
+
+    // Translations
+    const { t } = useTranslation();
+
+    // Errors
+    const error = t(errors?.[name]?.message as string) ?? errors?.[name]?.message;
+    
+    return (
+        <Controller
+            {...register(name)}
+            control={control}
+            name={name}
+            render={({ field }) => <FloatingLabel
+                {...field}
+                className={className}
+                color={error ? "error" : undefined}
+                disabled={isDisabled}
+                helperText={error}
+                label={label}
+                max={maxDate}
+                min={minDate}
+                type={type}
+                variant="outlined"
+            />}
         />
     );
 }

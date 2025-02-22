@@ -21,5 +21,5 @@ export default function RootPage() {
 
     if (status === "loading") return <Loader />;
 
-    redirect("/home");
+    redirect("/tasks");
 }
