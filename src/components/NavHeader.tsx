@@ -45,7 +45,7 @@ export default function NavHeader ({ setOpen, setExpanded }: NavHeaderProps) {
     if (!route) return;
 
     return (
-        <header className="sticky flex px-6 py-4 gap-6 items-center">
+        <header className="sticky top-0 flex px-6 py-4 gap-6 items-center bg-white z-[999]">
             <button
                 type="button"
                 className="flex items-center justify-center text-white sm:hidden"
