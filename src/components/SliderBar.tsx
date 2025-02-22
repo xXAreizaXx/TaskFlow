@@ -103,7 +103,7 @@ export default function SliderBar ({ expanded, setExpanded }: SideBarProps) {
                         !expanded ? "hidden" : ""
                     )}
                     height={30}
-                    src="/logo.svg"
+                    src="/logo-positivo.svg"
                     width={100}
                 />
 

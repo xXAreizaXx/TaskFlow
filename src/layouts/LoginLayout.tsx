@@ -18,7 +18,7 @@ export default function LoginLayout({ children }: { children: React.ReactNode })
                 <Image
                     alt="Logo"
                     height={150}
-                    src="/logo.svg"
+                    src="/logo-negativo.svg"
                     width={300}
                 />
             </aside>

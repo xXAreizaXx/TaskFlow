@@ -1,19 +1,19 @@
 "use client";
 
 // NextJS
-import { useSession } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 
 // Components
+import Translate from "./Translate";
 import { TitleH2 } from "./Typographies";
 
 // Constants
 import { routes } from "@constants/routes";
 
 // Icons
-import { IconMenu2, type TablerIcon } from "@tabler/icons-react";
-import Translate from "./Translate";
+import { IconLogout2, IconMenu2, type TablerIcon } from "@tabler/icons-react";
 
 interface NavHeaderProps {
     setOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -38,6 +38,11 @@ export default function NavHeader ({ setOpen, setExpanded }: NavHeaderProps) {
     // Pathname
     const pathname = usePathname();
     const newPathname = pathname.split("/").slice(0, 2).join("/");
+
+    // Functions
+    const handleCloseSession = () => {
+        signOut({ callbackUrl: "/" });
+    };
     
     // Constants
     const route = routes.find((route: IRoute) => route.path === newPathname);
@@ -65,6 +70,13 @@ export default function NavHeader ({ setOpen, setExpanded }: NavHeaderProps) {
 
                 <div className="flex gap-4 items-center">
                     <Translate />
+
+                    <IconLogout2
+                        className="cursor-pointer"
+                        color="#6B7280"
+                        onClick={handleCloseSession}
+                        size={25}
+                    />
                 </div>
             </div>
         </header>
