@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "johndoe"
+    },
+    {
+      "id": "8d9a",
+      "email": "jorgeareiza2001@gmail.com",
+      "name": "Jorge Areiza",
+      "password": "Jorgea2001*"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Tarea 1",
+      "description": "Descripción de la tarea",
+      "dueDate": "2025-02-21T00:00:00.000Z",
+      "status": "pending",
+      "userId": 1
+    }
+  ]
+}
