@@ -9,10 +9,12 @@ import { useSlideAction } from "@contexts/SlideActionContext";
 
 // Components
 import { BtnPrimary } from "@components/Buttons";
-import { TextParagraph, TitleH1 } from "@components/Typographies";
 
 // Services
 import { getTasks } from "@services/tasks";
+
+// UI - Task
+import CardTask from "@ui/tasks/CardTask";
 
 // External Dependencies
 import { IconCirclePlus } from "@tabler/icons-react";
@@ -25,7 +27,7 @@ export default function TasksPage() {
     const { open, setOpen, setModule, setParams } = useSlideAction();
 
     // Query
-    const { data: tasks, isLoading } = useQuery<TTask[]>({
+    const { data: tasks, isLoading, refetch } = useQuery<TTask[]>({
         queryKey: ["tasks", open],
         queryFn: () => getTasks()
             .then((res) => res?.data)
@@ -39,12 +41,6 @@ export default function TasksPage() {
         setOpen(true);
     };
 
-    const handleEdit = (task: TTask) => {
-        setParams({ description: "Tasks.Edit.Description", id: task.id, title: "Tasks.Edit.Title" });
-        setModule("task-edit");
-        setOpen(true);
-    };
-
     if (isLoading) return null;
 
     return (
@@ -53,13 +49,12 @@ export default function TasksPage() {
                 <BtnPrimary onClick={handleAdd} icon={IconCirclePlus}>{t("Constants.Add")}</BtnPrimary>
             </header>
 
-            <div className="flex flex-col gap-4">
-                {tasks?.map((task) => (
-                    <div key={task.id} className="flex flex-col gap-2" onClick={() => handleEdit(task)}>
-                        <TitleH1>{task.title}</TitleH1>
-                        <TextParagraph>{task.description}</TextParagraph>
-                    </div>
-                ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {tasks?.sort((a, b) => {
+                    if (a.status === "PENDING" && b.status === "COMPLETED") return -1;
+                    if (a.status === "COMPLETED" && b.status === "PENDING") return 1;
+                    return 0;
+                }).map((task) => <CardTask key={task.id} task={task} refetch={refetch} />)}
             </div>
         </main>
     );

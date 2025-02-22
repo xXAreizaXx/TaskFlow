@@ -70,6 +70,11 @@
             "Description": "Here you can edit the selected task, with all the necessary details (Title, Description, Due Date, Status).",
             "Title": "Edit Task"
         },
+        "ModalDelete": {
+            "No": "No",
+            "Title": "Are you sure you want to delete this task?",
+            "Yes": "Yes, I'm sure"
+        },
         "Date": "Date",
         "Description": "Description",
         "DueDate": "Due Date",
@@ -93,10 +98,12 @@
         "Tasks": {
             "Errors": {
                 "Create": "Error creating task.",
+                "Delete": "Error deleting task.",
                 "Edit": "Error editing task."
             },
             "Success": {
                 "Create": "Task successfully created.",
+                "Delete": "Task successfully deleted.",
                 "Edit": "Task successfully edited."
             }
         },

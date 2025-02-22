@@ -70,6 +70,11 @@
             "Description": "Aquí puedes editar la tarea seleccionada, con todos los detalles necesarios (Título, Descripción, Fecha de vencimiento, Estado).",
             "Title": "Editar Tarea"
         },
+        "ModalDelete": {
+            "No": "No",
+            "Title": "¿Estás seguro de que deseas eliminar esta tarea?",
+            "Yes": "Si, estoy seguro"
+        },
         "Date": "Fecha",
         "Description": "Descripción",
         "DueDate": "Fecha de vencimiento",
@@ -93,10 +98,12 @@
         "Tasks": {
             "Errors": {
                 "Create": "Error al crear la tarea.",
+                "Delete": "Error al eliminar la tarea.",
                 "Edit": "Error al editar la tarea."
             },
             "Success": {
                 "Create": "Tarea creada con éxito.",
+                "Delete": "Tarea eliminada con éxito.",
                 "Edit": "Tarea editada con éxito."
             }
         },

@@ -16,18 +16,11 @@
       "status": "PENDING"
     },
     {
-      "title": "Test V2",
-      "description": "Test V2",
-      "dueDate": "2025-02-26",
-      "status": "PENDING",
-      "id": "c6bd"
-    },
-    {
       "id": "1659",
       "title": "sasas",
       "description": "sasas",
       "dueDate": "2025-02-22",
-      "status": "PENDING"
+      "status": "COMPLETED"
     }
   ]
 }
