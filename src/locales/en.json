@@ -92,10 +92,12 @@
         },
         "Tasks": {
             "Errors": {
-                "Create": "Error creating task."
+                "Create": "Error creating task.",
+                "Edit": "Error editing task."
             },
             "Success": {
-                "Create": "Task successfully created."
+                "Create": "Task successfully created.",
+                "Edit": "Task successfully edited."
             }
         },
         "Success": "Success",

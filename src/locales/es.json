@@ -92,10 +92,12 @@
         },
         "Tasks": {
             "Errors": {
-                "Create": "Error al crear la tarea."
+                "Create": "Error al crear la tarea.",
+                "Edit": "Error al editar la tarea."
             },
             "Success": {
-                "Create": "Tarea creada con éxito."
+                "Create": "Tarea creada con éxito.",
+                "Edit": "Tarea editada con éxito."
             }
         },
         "Success": "Exitoso",
