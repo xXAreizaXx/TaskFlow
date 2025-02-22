@@ -39,6 +39,12 @@ export default function TasksPage() {
         setOpen(true);
     };
 
+    const handleEdit = (task: TTask) => {
+        setParams({ description: "Tasks.Edit.Description", id: task.id, title: "Tasks.Edit.Title" });
+        setModule("task-edit");
+        setOpen(true);
+    };
+
     if (isLoading) return null;
 
     return (
@@ -49,7 +55,7 @@ export default function TasksPage() {
 
             <div className="flex flex-col gap-4">
                 {tasks?.map((task) => (
-                    <div key={task.id} className="flex flex-col gap-2">
+                    <div key={task.id} className="flex flex-col gap-2" onClick={() => handleEdit(task)}>
                         <TitleH1>{task.title}</TitleH1>
                         <TextParagraph>{task.description}</TextParagraph>
                     </div>
