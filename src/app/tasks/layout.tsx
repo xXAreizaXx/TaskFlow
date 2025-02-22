@@ -7,10 +7,10 @@ import AppLayout from "@layouts/AppLayout";
 // Metadata
 export const metadata: Metadata = {
     description: "",
-    title: "TaskFlow | Home",
+    title: "TaskFlow | Tasks",
 };
 
-export default function HomeLayout({ children }: { children: React.ReactNode }) {
+export default function TasksLayout({ children }: { children: React.ReactNode }) {
     return <AppLayout>
         {children}
     </AppLayout>;

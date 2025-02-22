@@ -10,7 +10,7 @@ import useLocalStorage from "@hooks/useLocalStorage";
 import { slideModules } from "@constants/slideModules";
 
 const SlideActionContext = createContext<ISlideAction>({
-    module: "",
+    module: null,
     open: false,
     params: { description: "", id: 0, title: "" },
     setModule: () => {},
@@ -28,7 +28,7 @@ export const SlideActionProvider = ({ children }: { children: React.ReactNode })
     // State
     const [open, setOpen] = useState(false);
     
-    const [module, setModule] = useState<TModule>("");
+    const [module, setModule] = useState<TModule | null>(null);
     
     const [params, setParams] = useState<IParams>(item as IParams);
 

@@ -157,7 +157,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             <aside className="flex flex-1 flex-col">
                 <NavHeader setOpen={setOpen} setExpanded={setExpanded} />
 
-                <section className="flex flex-col w-full h-[calc(100dvh-4.5rem)] p-6 gap-6">
+                <section className="flex flex-col w-full h-[calc(100dvh-4.5rem)] pt-2 p-6 gap-6">
                     {children}
                 </section>
             </aside>

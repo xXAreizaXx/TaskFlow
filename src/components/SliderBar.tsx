@@ -66,15 +66,15 @@ export function NavList ({ expanded }: { expanded: boolean }) {
                                 className={joinClassNames(
                                     "relative flex items-center font-regular rounded-xl cursor-pointer transition-colors group",
                                     expanded ? "p-2 h-10 gap-4" : "p-0 justify-center h-10 w-10",
-                                    isActive ? "bg-main-100 text-primary hover:text-main-400 hover:bg-main-100" : "text-gray-600 hover:bg-main-50 hover:text-white"
+                                    isActive ? "bg-sky-100 text-primary hover:text-sky-400 hover:bg-sky-100" : "text-gray-600 hover:bg-sky-50 hover:text-white"
                                 )}
                                 href={route?.path}
                             >
-                                <route.icon size={25} className={joinClassNames(isActive ? "text-primary" : "text-gray-400 group-hover:text-main-400 transition-colors")} />
+                                <route.icon size={25} className={joinClassNames(isActive ? "text-primary" : "text-gray-400 group-hover:text-sky-400 transition-colors")} />
 
                                 <span className={joinClassNames(
                                     "overflow-hidden transition-colors",
-                                    isActive ? "text-primary" : "text-gray-600 group-hover:text-main-400",
+                                    isActive ? "text-primary" : "text-gray-600 group-hover:text-sky-400",
                                     expanded ? "w-40" : "w-0"
                                 )}>
                                     {t(route?.key) || route?.name}

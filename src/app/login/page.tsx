@@ -5,7 +5,7 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 // ReactJS
-import { SubmitErrorHandler, SubmitHandler, useForm } from "react-hook-form";
+import { type SubmitErrorHandler, type SubmitHandler, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 
 // Components
@@ -41,7 +41,7 @@ export default function LoginPage() {
     // Functions
     const onSubmit: SubmitHandler<TSignInSchema> = async (data) => {
         const response = signIn("credentials", {
-            callbackUrl: "/home",
+            callbackUrl: "/tasks",
             email: data.email,
             password: data.password,
             redirect: false
