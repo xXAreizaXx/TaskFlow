@@ -7,3 +7,10 @@ type TTask = {
 }
 
 type DtoTask = Omit<TTask, "id">;
+
+type TFilters = {
+    title: string;
+    status: string;
+    dueDate: string;
+    sortOrder: "asc" | "desc";
+};

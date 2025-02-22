@@ -75,11 +75,25 @@
             "Title": "¿Estás seguro de que deseas eliminar esta tarea?",
             "Yes": "Si, estoy seguro"
         },
+        "Filters": {
+            "AllStatuses": "Todos los estados",
+            "Ascending": "Mas antiguos",
+            "Descending": "Nuevos",
+            "DueDate": "Fecha de vencimiento",
+            "Reset": "Restablecer filtros",
+            "SortOrder": "Ordenar por Fecha de vencimiento",
+            "Status": "Estado",
+            "Title": "Título",
+            "TitlePlaceholder": "Buscar por título..."
+        },
         "Date": "Fecha",
         "Description": "Descripción",
         "DueDate": "Fecha de vencimiento",
         "Info": "Información",
-        "Status": "Estado",
+        "Status": {
+            "Completed": "Completado",
+            "Pending": "Pendiente"
+        },
         "Title": "Título"
     },
     "Toast": {
